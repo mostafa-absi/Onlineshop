@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Online Shop</string>
+    <string name="Login_Error">نام کاربری یا رمزعبور اشتباه است</string>
+    <string name="Login_Internet_Check">لطفا اتصال به اینترنت را بررسی کنید</string>
+    <string name="Login_Title">نام کاربری و رمز عبور خود را وارد کنید</string>
+    <string name="Login_Username">نام کاربری</string>
+    <string name="Login_Password">رمز عبور</string>
+    <string name="Login_Login">ورود</string>
+    <string name="mobile_Number">۰۹۳۰۰۳۱۸۲۳۹</string>
+    <string name="user_Name">بهرام افشاری</string>
+    <string name="Change_Password">/nدر انتخاب رمز عبور موارد زیر را در نظر بگیرید:
+رمز عبور باید خداقل 8 کارکتر باشد/n
+شامل حروف و عدد باشد/n
+شامل علامت باشد(!@#$%)/n
+از حروف بزرگ و کوچک استفاده شود.</string>
+</resources>

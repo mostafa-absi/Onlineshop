@@ -1,0 +1,78 @@
+[versions]
+agp = "9.2.1"
+coreKtx = "1.18.0"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+lifecycleRuntimeKtx = "2.10.0"
+activityCompose = "1.13.0"
+kotlin = "2.2.10"
+composeBom = "2026.02.01"
+
+hiltnavigation = "1.3.0"
+roomRef = "2.8.4"
+dagger ="2.59.2"
+ksp="2.1.21-2.0.1"
+lottie = "6.6.6"
+foundation = "1.11.1"
+navigation="2.9.8"
+coil="3.2.0"
+retrofit="3.0.0"
+gson= "2.13.2"
+coroutine="1.10.2"
+datastore="1.2.1"
+
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+
+
+
+androidx-lottie = {group="com.airbnb.android",name="lottie-compose",version.ref="lottie"}
+androidx-foundation ={group="androidx.compose.foundation", name="foundation", version.ref="foundation"}
+androidx-navigation ={group ="androidx.navigation",name="navigation-compose", version.ref="navigation"}
+
+androidx-retrofit2 = {group ="com.squareup.retrofit2" , name = "retrofit" , version.ref = "retrofit" }
+androidx-converter= {group ="com.squareup.retrofit2" , name = "converter-gson" , version.ref = "retrofit" }
+androidx-gson = {group ="com.google.code.gson" , name = "gson" , version.ref = "gson" }
+androidx-core = {group ="org.jetbrains.kotlinx" , name = "kotlinx-coroutines-core" , version.ref = "coroutine" }
+androidx-coroutine = {group ="org.jetbrains.kotlinx" , name = "kotlinx-coroutines-android" , version.ref = "coroutine" }
+
+coil-compose = {group="io.coil-kt.coil3",name="coil-compose",version.ref="coil"}
+coil-network-okhttp = {group="io.coil-kt.coil3",name="coil-network-okhttp",version.ref="coil"}
+
+
+
+hilt-android = {group="com.google.dagger" , name="hilt-android" , version.ref="dagger"}
+hilt-compiler = {group="com.google.dagger" , name="hilt-compiler" , version.ref="dagger"}
+hilt-navigation-compose = {group="androidx.hilt" , name="hilt-navigation-compose" , version.ref="hiltnavigation"}
+
+room-runtime ={group="androidx.room",name="room-runtime" , version.ref="roomRef"}
+room-ktx ={group="androidx.room",name="room-ktx" , version.ref="roomRef"}
+room-compiler ={group="androidx.room",name="room-compiler" , version.ref="roomRef"}
+
+datastore-prefrences = {group="androidx.datastore",name="datastore-preferences" , version.ref="datastore"}
+
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+ksp = {id = "com.google.devtools.ksp", version.ref="ksp"}
+dagger = {id="com.google.dagger.hilt.android", version.ref="dagger"}
+
