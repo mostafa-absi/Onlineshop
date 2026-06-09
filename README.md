@@ -4,6 +4,9 @@
 Online Shop is a sample Android e-commerce application created to practice modern Android development concepts.
 The project follows the MVVM architecture pattern and is developed using Jetpack Compose, Hilt, Room, Retrofit, and Kotlin Coroutines.
 
+This project is based on the Fake Store API:
+https://fakestoreapi.com
+
 ---
 
 ## 🔑 Demo Account
