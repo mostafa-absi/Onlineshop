@@ -1,17 +1,17 @@
 
 ##  Description
 
-Online Shop is a sample Android e-commerce application built to practice and created for learning purposes.
+Online Shop is a sample Android e-commerce application created to practice modern Android development concepts.
 The project follows the MVVM architecture pattern and is developed using Jetpack Compose, Hilt, Room, Retrofit, and Kotlin Coroutines.
 
 ---
 
-## 📚 Basic Information:
+## 🔑 Demo Account
 
-username: donero
-password: ewedon
+Username: `donero`
+Password: `ewedon`
 
-also you can find more in:
+Additional test users are available at:
 https://fakestoreapi.com/users
 
 ## ✨ Features
@@ -54,13 +54,13 @@ https://fakestoreapi.com/users
 The application follows the MVVM (Model-View-ViewModel) architecture pattern.
 
 ```text
-UI (Compose Screens)
+UI (Jetpack Compose)
         ↓
      ViewModel
         ↓
     Repository
-        ↓
-Local Database / Remote API
+      ↙   ↘
+ Room DB  API
 ```
 
 This structure helps separate concerns, improve maintainability, and make the codebase easier to scale.
@@ -80,7 +80,7 @@ This structure helps separate concerns, improve maintainability, and make the co
 1. Clone the repository
 
 ```bash
-git clone https://github.com/mostafa-absi/Onlineshop
+git clone https://github.com/mostafa-absi/Onlineshop.git
 ```
 
 2. Open the project in Android Studio
